@@ -1,5 +1,18 @@
 ﻿### R.T.G React Native Social Buttons
 
+<p align="center" style="font-size: 1.2rem;">
+  <a href="https://npmjs.org/package/rtg-rn-social-buttons" title="View this project on npm">
+    <img src="http://img.shields.io/npm/v/rtg-rn-social-buttons.svg?style=flat-square" alt="npm version" />
+  </a>
+  <a href="https://npmjs.org/package/rtg-rn-social-buttons" title="View this project on npm">
+    <img src="http://img.shields.io/npm/dm/rtg-rn-social-buttons.svg?style=flat-square" alt="npm downloads" />
+  </a>
+  <a href="https://npmjs.org/package/rtg-rn-social-buttons" title="View this project on npm">
+    <img src="http://img.shields.io/npm/l/rtg-rn-social-buttons.svg?style=flat-square" alt="npm licence" />
+  </a>
+</p>
+
+
 ## Installation
 
 Since the library is a JS-based solution, to install the latest version of `rtg-rn-social-buttons` you only need to run:
