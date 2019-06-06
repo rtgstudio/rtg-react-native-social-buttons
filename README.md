@@ -1,6 +1,6 @@
 ﻿### R.T.G React Native Social Buttons
 
-<p align="center" style="font-size: 1.2rem;">
+<p style="font-size: 1.2rem;">
   <a href="https://npmjs.org/package/rtg-rn-social-buttons" title="View this project on npm">
     <img src="http://img.shields.io/npm/v/rtg-rn-social-buttons.svg?style=flat-square" alt="npm version" />
   </a>
