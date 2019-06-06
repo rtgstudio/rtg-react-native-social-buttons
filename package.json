@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "Priyanshu Kumar",
+    "email": "priyanshu966106@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rtgstudio/rtg-react-native-social-buttons/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "description": "Social Buttons for React-Native",
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "react": "16.5.0",
+    "react-native": "^0.57.1"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/rtgstudio/rtg-react-native-social-buttons/blob/master/README.md",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "native",
+    "component",
+    "utility"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "rtg-rn-social-buttons",
+  "peerDependencies": {
+    "prop-types": "^15.0 || ^16.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtgstudio/rtg-react-native-social-buttons.git"
+  },
+  "version": "0.1.0"
+}

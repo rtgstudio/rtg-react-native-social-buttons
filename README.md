@@ -1,2 +1,1 @@
-# rtg-react-native-social-buttons
-Social Buttons for react native 
+﻿### R.T.G Recat Native Social Buttons
