@@ -55,3 +55,8 @@ You can try out the [rtg-rn-social-Button Playground app](https://expo.io/@priya
 ## Documentation
 
 More details and usages will coming soo
+
+##Screenshots
+<p>
+<img src="https://imgur.com/0i3JNJq"  style="border: 0; width: 86%; min-width: 240px; max-width: 100%;" />
+</p>
