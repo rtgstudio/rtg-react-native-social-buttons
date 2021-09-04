@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {
-  View, Text,
+  View,
+  Text,
   TouchableOpacity,
   StyleSheet,
   Image,
@@ -13,11 +14,15 @@ export default class SocialButton extends Component {
   }
 
   renderFaceBookButton(buttonText, opacity, height, width) {
-
     return (
-      <TouchableOpacity style={[styles.FacebookStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.FacebookStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/facebook.png')}
+          source={require("./images/facebook.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -28,9 +33,14 @@ export default class SocialButton extends Component {
 
   renderGoogleButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.GooglePlusStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.GooglePlusStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/google-plus.png')}
+          source={require("./images/google-plus.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -41,9 +51,14 @@ export default class SocialButton extends Component {
 
   renderGithubButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.GithubStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.GithubStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/github.png')}
+          source={require("./images/github.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -54,9 +69,14 @@ export default class SocialButton extends Component {
 
   renderTwitterButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.TwitterStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.TwitterStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/twitter.png')}
+          source={require("./images/twitter.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -67,9 +87,14 @@ export default class SocialButton extends Component {
 
   renderAmazonButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.AmazonStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.AmazonStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/amazon.png')}
+          source={require("./images/amazon.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -80,9 +105,14 @@ export default class SocialButton extends Component {
 
   renderMicrosoftButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.MicrosoftStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.MicrosoftStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/windows.png')}
+          source={require("./images/windows.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -93,9 +123,14 @@ export default class SocialButton extends Component {
 
   renderLinkedinButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.LinkdnStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity
+        style={[styles.LinkdnStyle, { height, width }]}
+        activeOpacity={opacity}
+        onPress={this.props.action}
+        testID={this.props.testID}
+      >
         <Image
-          source={require('./images/linkedin.png')}
+          source={require("./images/linkedin.png")}
           style={styles.ImageIconStyle}
         />
         <View style={styles.SeparatorLine} />
@@ -105,162 +140,197 @@ export default class SocialButton extends Component {
   }
 
   render() {
-
-    if (this.props.type == 'facebook') {
+    if (this.props.type == "facebook") {
       return (
         <View>
-          {this.renderFaceBookButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
+          {this.renderFaceBookButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
         </View>
       );
-    } else if (this.props.type == 'amazon') {
+    } else if (this.props.type == "amazon") {
       return (
         <View>
-          {this.renderAmazonButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
+          {this.renderAmazonButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
         </View>
-      )
-    } else if (this.props.type == 'linkedin') {
+      );
+    } else if (this.props.type == "linkedin") {
       return (
         <View>
-          {this.renderLinkedinButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
-        </View>)
-    } else if (this.props.type == 'google') {
+          {this.renderLinkedinButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
+        </View>
+      );
+    } else if (this.props.type == "google") {
       return (
         <View>
-          {this.renderGoogleButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
-        </View>)
-    } else if (this.props.type == 'microsoft') {
+          {this.renderGoogleButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
+        </View>
+      );
+    } else if (this.props.type == "microsoft") {
       return (
         <View>
-          {this.renderMicrosoftButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
-        </View>)
-    } else if (this.props.type == 'github') {
+          {this.renderMicrosoftButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
+        </View>
+      );
+    } else if (this.props.type == "github") {
       return (
         <View>
-          {this.renderGithubButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
-        </View>)
-    }
-    else {
+          {this.renderGithubButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
+        </View>
+      );
+    } else {
       return (
         <View>
-          {this.renderTwitterButton(this.props.text, this.props.opacity, this.props.height, this.props.width)}
-        </View>)
+          {this.renderTwitterButton(
+            this.props.text,
+            this.props.opacity,
+            this.props.height,
+            this.props.width
+          )}
+        </View>
+      );
     }
   }
 }
 
-
 const styles = StyleSheet.create({
   MainContainer: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    margin: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    margin: 10
   },
   GooglePlusStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#dc4e41',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#dc4e41",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   AmazonStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#FF9B00',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#FF9B00",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   GithubStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#333',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#333",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   FacebookStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#485a96',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#485a96",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   LinkdnStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#4875B4',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#4875B4",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   InstagramStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#4E433C',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#4E433C",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   TwitterStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#00acee',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#00acee",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   MicrosoftStyle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#0078d7',
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#0078d7",
     borderWidth: 0.5,
-    borderColor: '#fff',
+    borderColor: "#fff",
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5,
+    margin: 5
   },
   ImageIconStyle: {
     padding: 10,
     margin: 5,
     height: 25,
     width: 25,
-    resizeMode: 'stretch',
+    resizeMode: "stretch"
   },
   TextStyle: {
-    color: '#fff',
+    color: "#fff",
     marginBottom: 4,
-    marginRight: 20,
+    marginRight: 20
   },
   SeparatorLine: {
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
     width: 1,
-    height: 40,
-  },
+    height: 40
+  }
 });
-
-

@@ -7,13 +7,17 @@
     "url": "https://github.com/rtgstudio/rtg-react-native-social-buttons/issues"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.0 || ^16.0"
   },
   "description": "Social Buttons for React-Native",
   "devDependencies": {
+    "@testing-library/jest-native": "^4.0.2",
+    "@testing-library/react-native": "^7.2.0",
+    "jest": "^27.1.0",
+    "jest-each": "^27.1.0",
     "prettier": "^1.17.0",
-    "react": "16.5.0",
-    "react-native": "^0.57.1"
+    "react": "~17.0.2",
+    "react-native": "0.65.1"
   },
   "files": [
     "src"
@@ -46,6 +50,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rtgstudio/rtg-react-native-social-buttons.git"
+  },
+  "scripts": {
+    "prettyone": "prettier --write ",
+    "prettier": "prettier --write **/*.js",
+    "test": "jest --coverage --colors "
   },
   "version": "0.1.0"
 }
