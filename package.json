@@ -11,6 +11,10 @@
   },
   "description": "Social Buttons for React-Native",
   "devDependencies": {
+    "@testing-library/jest-native": "^4.0.2",
+    "@testing-library/react-native": "^7.2.0",
+    "jest": "^27.1.0",
+    "jest-each": "^27.1.0",
     "prettier": "^1.17.0",
     "react": "~17.0.2",
     "react-native": "0.65.1"
