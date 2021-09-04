@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialButtons render the login for amazon 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FF9B00",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="amazon-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/amazon.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons render the login for facebook 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#485a96",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="facebook-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/facebook.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons render the login for github 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#333",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="github-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/github.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons render the login for google 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#dc4e41",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="google-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/google-plus.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons render the login for linkedin 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4875B4",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="linkedin-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/linkedin.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons render the login for microsoft 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0078d7",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="microsoft-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/windows.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons render the login for twitter 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00acee",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="twitter-button"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/twitter.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`SocialButtons renders the basics 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#485a96",
+        "borderColor": "#fff",
+        "borderRadius": 5,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "height": undefined,
+        "margin": 5,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="test-id"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/images/facebook.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 5,
+          "padding": 10,
+          "resizeMode": "stretch",
+          "width": 25,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "height": 40,
+          "width": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "marginBottom": 4,
+          "marginRight": 20,
+        }
+      }
+    >
+       
+       
+    </Text>
+  </View>
+</View>
+`;
