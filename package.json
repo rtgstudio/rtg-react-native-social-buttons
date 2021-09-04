@@ -7,13 +7,13 @@
     "url": "https://github.com/rtgstudio/rtg-react-native-social-buttons/issues"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.0 || ^16.0"
   },
   "description": "Social Buttons for React-Native",
   "devDependencies": {
     "prettier": "^1.17.0",
-    "react": "16.5.0",
-    "react-native": "^0.57.1"
+    "react": "~17.0.2",
+    "react-native": "0.65.1"
   },
   "files": [
     "src"
