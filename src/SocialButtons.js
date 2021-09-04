@@ -15,7 +15,7 @@ export default class SocialButton extends Component {
   renderFaceBookButton(buttonText, opacity, height, width) {
 
     return (
-      <TouchableOpacity style={[styles.FacebookStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.FacebookStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/facebook.png')}
           style={styles.ImageIconStyle}
@@ -28,7 +28,7 @@ export default class SocialButton extends Component {
 
   renderGoogleButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.GooglePlusStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.GooglePlusStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/google-plus.png')}
           style={styles.ImageIconStyle}
@@ -41,7 +41,7 @@ export default class SocialButton extends Component {
 
   renderGithubButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.GithubStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.GithubStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/github.png')}
           style={styles.ImageIconStyle}
@@ -54,7 +54,7 @@ export default class SocialButton extends Component {
 
   renderTwitterButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.TwitterStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.TwitterStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/twitter.png')}
           style={styles.ImageIconStyle}
@@ -67,7 +67,7 @@ export default class SocialButton extends Component {
 
   renderAmazonButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.AmazonStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.AmazonStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/amazon.png')}
           style={styles.ImageIconStyle}
@@ -80,7 +80,7 @@ export default class SocialButton extends Component {
 
   renderMicrosoftButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.MicrosoftStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.MicrosoftStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/windows.png')}
           style={styles.ImageIconStyle}
@@ -93,7 +93,7 @@ export default class SocialButton extends Component {
 
   renderLinkedinButton(buttonText, opacity, height, width) {
     return (
-      <TouchableOpacity style={[styles.LinkdnStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action}>
+      <TouchableOpacity style={[styles.LinkdnStyle, { height, width }]} activeOpacity={opacity} onPress={this.props.action} testID={this.props.testID}>
         <Image
           source={require('./images/linkedin.png')}
           style={styles.ImageIconStyle}
