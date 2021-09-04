@@ -51,5 +51,10 @@
     "type": "git",
     "url": "git+https://github.com/rtgstudio/rtg-react-native-social-buttons.git"
   },
+  "scripts": {
+    "prettyone": "prettier --write ",
+    "prettier": "prettier --write **/*.js",
+    "test": "jest --coverage --colors "
+  },
   "version": "0.1.0"
 }
